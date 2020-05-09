@@ -71,7 +71,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(Michael Henke, flsun Kossel Mini)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(peterson, flsun Kossel Mini)" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -128,12 +128,11 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-//#define MOTHERBOARD BOARD_RAMPS_13_EFB
-#define MOTHERBOARD BOARD_MKS_GEN_13
+  #define MOTHERBOARD BOARD_MKS_GEN_13
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Mini Kossel"
+#define CUSTOM_MACHINE_NAME "Kossel mini"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
